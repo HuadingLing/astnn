@@ -23,7 +23,7 @@ def get_blocks(node, block_seq):
     name = node.__class__.__name__
     if name in ['FuncDef', 'If', 'For', 'While', 'DoWhile']:
         block_seq.append(ASTNode(node))
-        if name != 'For':
+        if name is not 'For':
             skip = 1
         else:
             skip = len(children) - 1

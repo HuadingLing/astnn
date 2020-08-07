@@ -1,0 +1,19 @@
+{
+    "a": 13,
+    "b": {
+        "datadir": "/tmp/minst",
+        "batch_size": 1024,
+        "num_workers": 4,
+        "learning_rate": 0.01,
+        "momentum": 0.5,
+        "num_epochs": 20,
+        "num_cores": 8,
+        "log_steps": 20,
+        "metrics_debug": false
+    },
+    "c": [
+        1,
+        2,
+        4
+    ]
+}

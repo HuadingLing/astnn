@@ -1,2 +1,5 @@
 *.lnk
 *.pkl
+*.pyc
+*.pt
+clone/data/c/train/embedding/node_w2v_128
