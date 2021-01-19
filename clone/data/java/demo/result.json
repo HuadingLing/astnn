@@ -1,0 +1,978 @@
+{
+    "language": "java",
+    "path": "data/java/demo/",
+    "date": "2020.09.14",
+    "database": "CCD database v1.0.1",
+    "models": {
+        "word2vec": "word2vec v1.3.0",
+        "type-1": "ASTNN t1 v1.3.0",
+        "type-2": "ASTNN t2 v1.3.0",
+        "S type-3": "ASTNN st3 v1.3.0",
+        "M type-3": "ASTNN mt3 v1.3.0",
+        "type-4": "ASTNN t4 v1.3.0"
+    },
+    "number of files": 10,
+    "number of functions": 10,
+    "clone detection result": [
+        {
+            "file name": "code_example_1044656.java",
+            "file path": "data/java/demo/code_example_1044656.java",
+            "LOC": 100,
+            "tokens num": 1000,
+            "function num": 1,
+            "file result": [
+                {
+                    "function name": "open",
+                    "LOC": 10,
+                    "tokens num": 100,
+                    "function result": [
+                        {
+                            "type-1 result": [
+                                {
+                                    "function id": 19447077,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.99
+                                },
+                                {
+                                    "function id": 18305035,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.979
+                                }
+                            ]
+                        },
+                        {
+                            "type-2 result": [
+                                {
+                                    "function id": 2887981,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.978
+                                },
+                                {
+                                    "function id": 2652719,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.97
+                                }
+                            ]
+                        },
+                        {
+                            "S type-3 result": [
+                                {
+                                    "function id": 18350798,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 1913136,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "M type-3 result": [
+                                {
+                                    "function id": 5297820,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 20082006,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "type-4 result": [
+                                {
+                                    "function id": 19663509,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 20082006,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file name": "code_example_1327097.java",
+            "file path": "data/java/demo/code_example_1327097.java",
+            "LOC": 100,
+            "tokens num": 1000,
+            "function num": 1,
+            "file result": [
+                {
+                    "function name": "generateMappackMD5",
+                    "LOC": 10,
+                    "tokens num": 100,
+                    "function result": [
+                        {
+                            "type-1 result": [
+                                {
+                                    "function id": 7067102,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.997
+                                },
+                                {
+                                    "function id": 7044164,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.997
+                                }
+                            ]
+                        },
+                        {
+                            "type-2 result": [
+                                {
+                                    "function id": 7067102,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.995
+                                },
+                                {
+                                    "function id": 7384218,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.993
+                                }
+                            ]
+                        },
+                        {
+                            "S type-3 result": [
+                                {
+                                    "function id": 19663509,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 1913136,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "M type-3 result": [
+                                {
+                                    "function id": 7678253,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 19279820,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "type-4 result": [
+                                {
+                                    "function id": 19663509,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 10797051,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file name": "code_example_1367602.java",
+            "file path": "data/java/demo/code_example_1367602.java",
+            "LOC": 100,
+            "tokens num": 1000,
+            "function num": 1,
+            "file result": [
+                {
+                    "function name": "transferFile",
+                    "LOC": 10,
+                    "tokens num": 100,
+                    "function result": [
+                        {
+                            "type-1 result": [
+                                {
+                                    "function id": 19447077,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.986
+                                },
+                                {
+                                    "function id": 3397344,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.983
+                                }
+                            ]
+                        },
+                        {
+                            "type-2 result": [
+                                {
+                                    "function id": 3397344,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.975
+                                },
+                                {
+                                    "function id": 7067102,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.975
+                                }
+                            ]
+                        },
+                        {
+                            "S type-3 result": [
+                                {
+                                    "function id": 3680629,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 4461592,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "M type-3 result": [
+                                {
+                                    "function id": 14768963,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 22834204,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "type-4 result": [
+                                {
+                                    "function id": 20885480,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 11940679,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file name": "code_example_153462.java",
+            "file path": "data/java/demo/code_example_153462.java",
+            "LOC": 100,
+            "tokens num": 1000,
+            "function num": 1,
+            "file result": [
+                {
+                    "function name": "copyFileTo",
+                    "LOC": 10,
+                    "tokens num": 100,
+                    "function result": [
+                        {
+                            "type-1 result": [
+                                {
+                                    "function id": 12052647,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.943
+                                },
+                                {
+                                    "function id": 7067102,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.932
+                                }
+                            ]
+                        },
+                        {
+                            "type-2 result": [
+                                {
+                                    "function id": 20841292,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.881
+                                },
+                                {
+                                    "function id": 7251408,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.801
+                                }
+                            ]
+                        },
+                        {
+                            "S type-3 result": [
+                                {
+                                    "function id": 19663509,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.999
+                                },
+                                {
+                                    "function id": 5942289,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.999
+                                }
+                            ]
+                        },
+                        {
+                            "M type-3 result": [
+                                {
+                                    "function id": 10671994,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 23494305,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "type-4 result": [
+                                {
+                                    "function id": 3536332,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 19663509,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file name": "code_example_281097.java",
+            "file path": "data/java/demo/code_example_281097.java",
+            "LOC": 100,
+            "tokens num": 1000,
+            "function num": 1,
+            "file result": [
+                {
+                    "function name": "sort",
+                    "LOC": 10,
+                    "tokens num": 100,
+                    "function result": [
+                        {
+                            "type-1 result": [
+                                {
+                                    "function id": 22314779,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.995
+                                },
+                                {
+                                    "function id": 12176858,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.995
+                                }
+                            ]
+                        },
+                        {
+                            "type-2 result": [
+                                {
+                                    "function id": 22314779,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.992
+                                },
+                                {
+                                    "function id": 12176858,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.991
+                                }
+                            ]
+                        },
+                        {
+                            "S type-3 result": [
+                                {
+                                    "function id": 12345227,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.998
+                                },
+                                {
+                                    "function id": 19994918,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.998
+                                }
+                            ]
+                        },
+                        {
+                            "M type-3 result": [
+                                {
+                                    "function id": 661,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.999
+                                },
+                                {
+                                    "function id": 7667,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.999
+                                }
+                            ]
+                        },
+                        {
+                            "type-4 result": [
+                                {
+                                    "function id": 19663509,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 5297820,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file name": "code_example_316364.java",
+            "file path": "data/java/demo/code_example_316364.java",
+            "LOC": 100,
+            "tokens num": 1000,
+            "function num": 1,
+            "file result": [
+                {
+                    "function name": "addFinance",
+                    "LOC": 10,
+                    "tokens num": 100,
+                    "function result": [
+                        {
+                            "type-1 result": [
+                                {
+                                    "function id": 20273918,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.981
+                                },
+                                {
+                                    "function id": 8911491,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.979
+                                }
+                            ]
+                        },
+                        {
+                            "type-2 result": [
+                                {
+                                    "function id": 20273918,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.98
+                                },
+                                {
+                                    "function id": 8911491,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.979
+                                }
+                            ]
+                        },
+                        {
+                            "S type-3 result": [
+                                {
+                                    "function id": 1913136,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 6399107,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "M type-3 result": [
+                                {
+                                    "function id": 5297820,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 20082006,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "type-4 result": [
+                                {
+                                    "function id": 19663509,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 10752643,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file name": "code_example_338852.java",
+            "file path": "data/java/demo/code_example_338852.java",
+            "LOC": 100,
+            "tokens num": 1000,
+            "function num": 1,
+            "file result": [
+                {
+                    "function name": "sort",
+                    "LOC": 10,
+                    "tokens num": 100,
+                    "function result": [
+                        {
+                            "type-1 result": [
+                                {
+                                    "function id": 22314779,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.995
+                                },
+                                {
+                                    "function id": 12176858,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.995
+                                }
+                            ]
+                        },
+                        {
+                            "type-2 result": [
+                                {
+                                    "function id": 22314779,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.992
+                                },
+                                {
+                                    "function id": 12176858,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.991
+                                }
+                            ]
+                        },
+                        {
+                            "S type-3 result": [
+                                {
+                                    "function id": 12345227,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.998
+                                },
+                                {
+                                    "function id": 19994918,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.998
+                                }
+                            ]
+                        },
+                        {
+                            "M type-3 result": [
+                                {
+                                    "function id": 661,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.999
+                                },
+                                {
+                                    "function id": 7667,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.999
+                                }
+                            ]
+                        },
+                        {
+                            "type-4 result": [
+                                {
+                                    "function id": 19663509,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 5297820,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file name": "code_example_55568.java",
+            "file path": "data/java/demo/code_example_55568.java",
+            "LOC": 100,
+            "tokens num": 1000,
+            "function num": 1,
+            "file result": [
+                {
+                    "function name": "httpOnLoad",
+                    "LOC": 10,
+                    "tokens num": 100,
+                    "function result": [
+                        {
+                            "type-1 result": [
+                                {
+                                    "function id": 10965982,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.99
+                                },
+                                {
+                                    "function id": 3345991,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.983
+                                }
+                            ]
+                        },
+                        {
+                            "type-2 result": [
+                                {
+                                    "function id": 10965982,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.993
+                                },
+                                {
+                                    "function id": 1045462,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.988
+                                }
+                            ]
+                        },
+                        {
+                            "S type-3 result": [
+                                {
+                                    "function id": 19663509,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 1913136,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "M type-3 result": [
+                                {
+                                    "function id": 19663509,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 9983984,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "type-4 result": [
+                                {
+                                    "function id": 3945916,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 10445018,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file name": "code_example_694747.java",
+            "file path": "data/java/demo/code_example_694747.java",
+            "LOC": 100,
+            "tokens num": 1000,
+            "function num": 1,
+            "file result": [
+                {
+                    "function name": "main",
+                    "LOC": 10,
+                    "tokens num": 100,
+                    "function result": [
+                        {
+                            "type-1 result": [
+                                {
+                                    "function id": 20406927,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.991
+                                },
+                                {
+                                    "function id": 20273918,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.987
+                                }
+                            ]
+                        },
+                        {
+                            "type-2 result": [
+                                {
+                                    "function id": 21893273,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.983
+                                },
+                                {
+                                    "function id": 3912676,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.982
+                                }
+                            ]
+                        },
+                        {
+                            "S type-3 result": [
+                                {
+                                    "function id": 12629582,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.997
+                                },
+                                {
+                                    "function id": 4647387,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.996
+                                }
+                            ]
+                        },
+                        {
+                            "M type-3 result": [
+                                {
+                                    "function id": 19663509,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 16301512,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        },
+                        {
+                            "type-4 result": [
+                                {
+                                    "function id": 19663509,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 1913136,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "file name": "code_example_878123.java",
+            "file path": "data/java/demo/code_example_878123.java",
+            "LOC": 100,
+            "tokens num": 1000,
+            "function num": 1,
+            "file result": [
+                {
+                    "function name": "sort",
+                    "LOC": 10,
+                    "tokens num": 100,
+                    "function result": [
+                        {
+                            "type-1 result": [
+                                {
+                                    "function id": 14665044,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.973
+                                },
+                                {
+                                    "function id": 420909,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.973
+                                }
+                            ]
+                        },
+                        {
+                            "type-2 result": [
+                                {
+                                    "function id": 7067102,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.954
+                                },
+                                {
+                                    "function id": 7981642,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.948
+                                }
+                            ]
+                        },
+                        {
+                            "S type-3 result": [
+                                {
+                                    "function id": 6920765,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.998
+                                },
+                                {
+                                    "function id": 22137813,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.998
+                                }
+                            ]
+                        },
+                        {
+                            "M type-3 result": [
+                                {
+                                    "function id": 6920765,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.999
+                                },
+                                {
+                                    "function id": 17788458,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 0.998
+                                }
+                            ]
+                        },
+                        {
+                            "type-4 result": [
+                                {
+                                    "function id": 10752643,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                },
+                                {
+                                    "function id": 19663509,
+                                    "LOC": 10,
+                                    "tokens num": 100,
+                                    "confidence": 1.0
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

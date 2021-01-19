@@ -3,3 +3,15 @@
 *.pyc
 *.pt
 clone/data/c/train/embedding/node_w2v_128
+clone/data/other_java/BCB_extraction/
+clone/data/ttt/BCB_extraction/
+clone/database/
+clone/data/java/SourcererCC_test/
+clone/Xmeans/liu hui/Cluster/src/main/java/cn/edu/nuaa/cluster/input.txt
+clone/Xmeans/liu hui/Cluster/src/main/java/cn/edu/nuaa/cluster/in/T4.txt
+clone/word2vec_Model/word2vec.wv.vectors.npy
+clone/word2vec_Model/word2vec.trainables.syn1neg.npy
+clone/data/java/out30-80type3.txt
+classification/Xmeans/java/cn/edu/nuaa/cluster/in/cluster data.txt
+classification/data/Xmeans dataset/cluster data.txt
+clone/Xmeans/liu hui/Cluster/src/main/java/cn/edu/nuaa/cluster/output/XMeans_results/input.arff

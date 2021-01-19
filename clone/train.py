@@ -123,9 +123,9 @@ if __name__ == '__main__':
             total += len(test_labels)
             total_loss += loss.item() * len(test_labels)
         if lang == 'java':
-            weights = [0, 0.005, 0.001, 0.002, 0.010, 0.982]
+            weights = [0, 0.005, 0.001, 0.002, 0.010, 0.982]  # 这个权值是什么鬼？哪来的？
             p, r, f, _ = precision_recall_fscore_support(trues, predicts, average='binary')
-            precision += weights[t] * p
+            precision += weights[t] * p  #这样更新？奇怪的知识增加了！
             recall += weights[t] * r
             f1 += weights[t] * f
             print("Type-" + str(t) + ": " + str(p) + " " + str(r) + " " + str(f))

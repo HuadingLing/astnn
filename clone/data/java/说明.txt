@@ -1,0 +1,8 @@
+label=0：不是克隆对
+label=1：type1克隆
+label=2：type2克隆
+label=3：强type3克隆
+label=4：中等type3克隆
+label=5：type4克隆（弱type3克隆）
+实验的时候label=5不考虑（当做非克隆对）
+label=4和label=3可以考虑合并起来当做type3（不分强中弱），或者label=4也不考虑

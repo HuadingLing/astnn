@@ -1,0 +1,5 @@
+{
+    "model name": "model for classification task",
+    "optimizer name": "Center_loss_opt",
+    "weight_cent": 0.1
+}

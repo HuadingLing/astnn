@@ -1,0 +1,46 @@
+package main1
+
+import (
+	"fmt"
+	"go/parser"
+	"go/token"
+)
+
+func main0() {
+    filepath := os.Args[2]
+    //content ,err :=ioutil.ReadFile(filepath)
+    fs := token.NewFileSet()
+    tree, err := parser.ParseFile(fs, filepath, nil, 0)
+    if err !=nil {
+        panic(err) } 
+    ast.Print(fs, tree)
+    //fmt.Println(string(tree)) 
+}
+
+func main() {
+	fset := token.NewFileSet() // positions are relative to fset
+
+	src := `package foo
+
+import (
+	"fmt"
+	"time"
+)
+
+func bar() {
+	fmt.Println(time.Now())
+}`
+
+	// Parse src but stop after processing the imports.
+	f, err := parser.ParseFile(fset, "", src, 0)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+
+	// Print the imports from the file's AST.
+	for _, s := range f.Imports {
+		fmt.Println(s.Path.Value)
+	}
+
+}
