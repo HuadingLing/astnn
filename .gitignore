@@ -16,3 +16,6 @@ classification/Xmeans/java/cn/edu/nuaa/cluster/in/cluster data.txt
 classification/data/Xmeans dataset/cluster data.txt
 clone/Xmeans/liu hui/Cluster/src/main/java/cn/edu/nuaa/cluster/output/XMeans_results/input.arff
 clone/data/Xmeans dataset/T4.txt
+clone/data/other_java/abdera/
+clone/data/ttt/.abdera/
+clone/data/ttt/.accumulo/
